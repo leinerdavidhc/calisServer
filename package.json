@@ -4,6 +4,7 @@
   "main": "server.ts",
   "scripts": {
     "build": "tsc",
+    "start": "node dist/server.js",
     "dev": "nodemon src/server.ts --exec ts-node"
   },
   "keywords": [],
